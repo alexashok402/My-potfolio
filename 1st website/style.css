@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: lightseagreen;
+}
+classhero.h1{
+    background-color: lightsteelblue;
+}
+classhero.p{
+    background-color: lightsteelblue;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: #f4f4f4;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: rgb(7, 155, 64);
+  color: white;
+  text-decoration: none;
+}
+
+.courses {
+  display:flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 20px;
+  radius: 15px;
+}
+
+.card {
+  flex: 1 1 300px;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+@media(max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
